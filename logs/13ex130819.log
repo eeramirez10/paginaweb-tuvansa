@@ -1,0 +1,23 @@
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-19 22:57:17
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-19 22:57:17 W3SVC12084 GET /index.html - - 201.159.97.166 HTTP/1.1 Mozilla/5.0+(Windows+NT+5.1)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/28.0.1500.95+Safari/537.36 http://www.directoriomex.com.mx/basenl.asp www.tuvansa.com.mx 200 435 378
+2013-08-19 22:57:18 W3SVC12084 GET /favicon.ico - - 201.159.97.166 HTTP/1.1 Mozilla/5.0+(Windows+NT+5.1)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/28.0.1500.95+Safari/537.36 - www.tuvansa.com.mx 404 4173 276
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-19 23:46:52
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-19 23:46:52 W3SVC12084 GET /robots.txt - - 65.55.52.111 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - www.tuvansa.com.mx 404 4173 270
+2013-08-19 23:47:32 W3SVC12084 GET /index.html - - 65.55.52.111 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - www.tuvansa.com.mx 200 435 273
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-20 02:32:29
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-20 02:32:29 W3SVC12084 GET /robots.txt - - 64.246.161.190 HTTP/1.0 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en;+rv:1.9.0.13)+Gecko/2009073022+Firefox/3.5.2+(.NET+CLR+3.5.30729)+SurveyBot/2.3+(DomainTools) - www.tuvansa.com.mx 404 4192 291
+2013-08-20 02:32:30 W3SVC12084 GET /index.html - - 64.246.161.190 HTTP/1.1 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en;+rv:1.9.0.13)+Gecko/2009073022+Firefox/3.5.2+(.NET+CLR+3.5.30729)+SurveyBot/2.3+(DomainTools) http://whois.domaintools.com/tuvansa.com.mx www.tuvansa.com.mx 200 435 482
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-20 04:13:03
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-20 04:13:02 W3SVC12084 GET /index.html - - 69.64.58.188 HTTP/1.1 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en-US;+rv:1.8.1.1)+Gecko/20061204+Firefox/2.0.0.1 - www.tuvansa.com.mx 206 427 230

@@ -1,0 +1,22 @@
+
+#ex1{
+
+	top: 18px; 
+	max-width: none; 
+	width: 80%; 
+	height: 80%; 
+	position: relative; 
+	background: black; 
+}
+
+#contenedor-video{
+	margin: auto; 
+	width: 100%; 
+	height: 100%;  
+}
+
+#my-video{
+
+	width: 100%; 
+	height: 100%;
+}

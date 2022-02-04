@@ -1,0 +1,40 @@
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-23 06:43:34
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-23 06:43:34 W3SVC12084 GET /index.html - - 93.159.230.14 HTTP/1.0 Mozilla/5.0+(Linux;+U;+Android+2.2;+nl-nl;+Desire_A8181+Build/FRF91)+AppleWebKit/533.1+(KHTML,+like+Gecko)+Version/4.0+Mobile+Safari/533.1 - tuvansa.com.mx 200 402 247
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-23 12:28:26
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-23 12:28:25 W3SVC12084 GET /robots.txt - - 66.249.73.143 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - www.tuvansa.com.mx 404 4173 268
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-23 17:24:24
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-23 17:24:23 W3SVC12084 GET /index.html - - 201.172.33.52 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.0)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/29.0.1547.57+Safari/537.36 http://www.directoriomex.com.mx/basenl.asp www.tuvansa.com.mx 200 435 378
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-23 19:01:53
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-23 19:01:52 W3SVC12084 GET /robots.txt - - 157.55.35.82 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - www.tuvansa.com.mx 404 4173 270
+2013-08-23 19:07:58 W3SVC12084 GET /index.html - - 157.55.35.82 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - www.tuvansa.com.mx 200 435 273
+2013-08-23 19:10:18 W3SVC12084 GET /index.html - - 157.55.35.82 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - www.tuvansa.com.mx 200 435 273
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-23 22:53:17
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-23 22:53:17 W3SVC12084 GET /robots.txt - - 66.249.73.23 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - tuvansa.com.mx 404 4173 264
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-24 00:22:17
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-24 00:22:16 W3SVC12084 GET /robots.txt - - 157.55.35.82 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - www.tuvansa.com.mx 404 4173 270
+2013-08-24 00:22:52 W3SVC12084 GET /index.html - - 157.55.35.82 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - www.tuvansa.com.mx 200 435 273
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-24 01:06:31
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-24 01:06:30 W3SVC12084 GET /robots.txt - - 157.55.35.82 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - tuvansa.com.mx 404 4173 266
+2013-08-24 01:06:53 W3SVC12084 GET /index.html - - 157.55.35.82 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - tuvansa.com.mx 200 431 269
+2013-08-24 01:17:13 W3SVC12084 GET /index.html - - 78.158.11.226 HTTP/1.1 Lynx/2.8.5rel.1+libwww-FM/2.15FC+SSL-MM/1.4.1c+OpenSSL/0.9.7e-dev http://killmalware.com/tuvansa.com.mx/ tuvansa.com.mx 200 378 215

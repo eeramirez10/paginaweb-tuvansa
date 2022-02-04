@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tuvansa | Our products</title>
+
+    <meta content='Empresa Mexicana con más de cinco décadas en la comercialización de Tubería, Válvulas y Conexiones para uso industrial' name='description' />
+		<meta content='De Puro Corazón' name='author' />
+		<meta name="distribución" content="global" />
+		<meta name="language" content="en" />
+
+		<link rel="shortcut icon" href="favicon.ico" />
+
+	  <link rel="stylesheet" type="text/css" href="css/general-styles.css" />
+		<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+
+		<script src="js/modernizr.custom.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
+
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+
+	<!-- MENU RESPONSIVE -->
+	<div class="menu-wrap">
+		<div class="menu">
+			<div class="icon-list">
+				<a href="index.html" target="_self"><span>Home</span></a>
+				<a href="quienes-somos.html" target="_self"><span>Who we are</span></a>
+				<a href="productos.html" target="_self"><span>Products</span></a>
+				<a href="sistemas-de-calidad.html" target="_self"><span>Quality Systems</span></a>
+				<a href="sucursales.html" target="_self"><span>Branches</span></a>
+        <!-- <a href="media.html" target="_self"><span>Media</span></a> -->
+				<a href="contacto.php" target="_self"><span>Contact</span></a>
+				<a href="../index.html" target="_self"><span><img src="imgs/mexicoFlagIcon.gif."></span></a>
+			</div>
+		</div>
+		<button class="close-button" id="close-button">Close Menu</button>
+	</div>
+
+	<button class="menu-button" id="open-button">Menu</button>
+
+	<header class="header-index wow fadeInDown" data-wow-duration="1s">
+		<div>
+			<div class="logo">
+				<a href="index.html"><img src="imgs/logo-tuvansa.png" alt="Tuvansa"></a>
+			</div>
+			<nav id="menu">
+				<ul>
+					<a href="quienes-somos.html" target="_self"><li>Who we are</li></a>
+					<a href="productos.html" target="_self"><li>Our products</li></a>
+					<a href="sistemas-de-calidad.html" target="_self"><li>Quality Systems</li></a>
+					<a href="sucursales.html" target="_self"><li>Branches</li></a>
+          <!-- <a href="media.html" target="_self"><li>Media</li></a> -->
+					<a href="contacto.php" target="_self"><li>Contact</li></a>
+					<a href="../index.html" target="_self"><li><img src="imgs/mexicoFlagIcon.gif"></li></a>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div class="container">
+		<div class="big-banner banner-productos">
+			<div>
+				<h2>The products we carry have diverse applications in the industry:</h2>
+				<p>We primarily service the oil and gas, petrochemical, construction, electrical, mining, sugar, hydraulic, food, paper, and pharmaceutical industries among others.</p>
+			</div>
+		</div>
+
+		<div class="content-productos">
+			<div class="title-mas">
+				<h1>Our products</h1>
+			</div>
+			<div class="productos opacity wow fadeInUp" data-wow-duration="1s">
+				<a href="tuberias.html">
+					<div class="title-productos">
+						<p>Pipe</p>
+					</div>
+					<img src="imgs/tuvansa-tuberias.png" alt="Tuberías">
+				</a>
+			</div>
+			<div class="productos opacity wow fadeInUp" data-wow-duration="1s">
+				<a href="conexiones.html">
+					<div class="title-productos">
+						<p>Fittings</p>
+					</div>
+					<img src="imgs/tuvansa-conexiones.png" alt="Conexiones">
+				</a>
+			</div>
+			<div class="productos opacity wow fadeInUp" data-wow-duration="1s">
+				<a href="valvulas.html">
+					<div class="title-productos">
+						<p>Valves</p>
+					</div>
+					<img src="imgs/tuvansa-valvulas.png" alt="Válvulas">
+				</a>
+			</div>
+			<div class="productos opacity wow fadeInUp" data-wow-duration="1s">
+				<a href="otros.html">
+					<div class="title-productos">
+						<p>Other products</p>
+					</div>
+					<img src="imgs/tuvansa-otros-productos.png" alt="Otros productos">
+				</a>
+			</div>
+			<div class="cita-mas">
+				<h3>We are fully supported, both technically and as a business partner, by all the factories we represent.</h3>
+			</div>
+
+		</div>
+	</div>
+
+	<footer>
+		<div class="derechos">
+			<p>® 2014. ALL RIGHTS RESERVED</p>
+		</div>
+	</footer>
+
+	<!-- MENU RESPONSIVE -->
+	<script src="js/classie.js"></script>
+	<script src="js/main.js"></script>
+
+	<script>
+		$(window).scroll(function() {
+		    var scroll = $(window).scrollTop();
+
+		    if (scroll >= 100) {
+		        $("header").addClass("scroll");
+		    } else {
+		        $("header").removeClass("scroll");
+		    }
+		});
+	</script>
+
+	<!-- WOW Scroll -->
+  <script src="js/wow.js"></script>
+
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,38 @@
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-27 06:06:51
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-27 06:06:51 W3SVC12084 GET /robots.txt - - 157.55.35.88 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - www.tuvansa.com.mx 404 4173 270
+2013-08-27 06:07:54 W3SVC12084 GET /index.html - - 157.55.35.88 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - www.tuvansa.com.mx 200 435 362
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-27 06:44:08
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-27 06:44:08 W3SVC12084 GET /index.html - - 157.55.35.88 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - www.tuvansa.com.mx 200 435 273
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-27 14:07:01
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-27 14:07:01 W3SVC12084 GET /index.html - - 187.172.248.213 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+6_1_3+like+Mac+OS+X)+AppleWebKit/536.26+(KHTML,+like+Gecko)+CriOS/28.0.1500.16+Mobile/10B329+Safari/8536.25 http://minisitios.seccionamarilla.com.mx/tuvans/ www.tuvansa.com.mx 200 435 416
+2013-08-27 14:07:02 W3SVC12084 GET /apple-touch-icon-precomposed.png - - 187.172.248.213 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+6_1_3+like+Mac+OS+X)+AppleWebKit/536.26+(KHTML,+like+Gecko)+CriOS/28.0.1500.16+Mobile/10B329+Safari/8536.25 - www.tuvansa.com.mx 404 4173 316
+2013-08-27 14:07:02 W3SVC12084 GET /favicon.ico - - 187.172.248.213 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+6_1_3+like+Mac+OS+X)+AppleWebKit/536.26+(KHTML,+like+Gecko)+CriOS/28.0.1500.16+Mobile/10B329+Safari/8536.25 - www.tuvansa.com.mx 404 4173 295
+2013-08-27 14:07:49 W3SVC12084 GET /favicon.ico - - 187.172.248.213 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+6_1_3+like+Mac+OS+X)+AppleWebKit/536.26+(KHTML,+like+Gecko)+CriOS/28.0.1500.16+Mobile/10B329+Safari/8536.25 - www.tuvansa.com.mx 404 4173 295
+2013-08-27 14:07:49 W3SVC12084 GET /apple-touch-icon-precomposed.png - - 187.172.248.213 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+6_1_3+like+Mac+OS+X)+AppleWebKit/536.26+(KHTML,+like+Gecko)+CriOS/28.0.1500.16+Mobile/10B329+Safari/8536.25 - www.tuvansa.com.mx 404 4173 316
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-27 17:51:22
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-27 17:51:22 W3SVC12084 GET /index.html - - 201.102.147.112 HTTP/1.1 Mozilla/5.0+(compatible;+MSIE+10.0;+Windows+NT+6.1;+Trident/6.0) http://www.directoriomex.com.mx/basenl.asp www.tuvansa.com.mx 200 435 310
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-27 18:12:02
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-27 18:12:02 W3SVC12084 GET /index.html - - 187.149.145.124 HTTP/1.1 Mozilla/5.0+(Windows+NT+5.1;+rv:23.0)+Gecko/20100101+Firefox/23.0 http://minisitios.seccionamarilla.com.mx/tuvans/ www.tuvansa.com.mx 200 435 365
+2013-08-27 18:12:04 W3SVC12084 GET /favicon.ico - - 187.149.145.124 HTTP/1.1 Mozilla/5.0+(Windows+NT+5.1;+rv:23.0)+Gecko/20100101+Firefox/23.0 - www.tuvansa.com.mx 404 4173 317
+2013-08-27 18:12:04 W3SVC12084 GET /favicon.ico - - 187.149.145.124 HTTP/1.1 Mozilla/5.0+(Windows+NT+5.1;+rv:23.0)+Gecko/20100101+Firefox/23.0 - www.tuvansa.com.mx 404 4173 317
+2013-08-27 18:12:04 W3SVC12084 GET /favicon.ico - - 187.149.145.124 HTTP/1.1 Mozilla/5.0+(Windows+NT+5.1;+rv:23.0)+Gecko/20100101+Firefox/23.0 - www.tuvansa.com.mx 404 4173 317
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-27 18:37:42
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-27 18:37:42 W3SVC12084 GET /index.html - - 201.103.171.145 HTTP/1.1 Mozilla/5.0+(compatible;+MSIE+9.0;+Windows+NT+6.0;+WOW64;+Trident/5.0) http://www.seccionamarilla.com.mx/informacion/tuberias-y-valvulas-del-norte-sa-de-cv/tuberia-valvulas-y-conexiones/distrito-federal/993120190 www.tuvansa.com.mx 200 435 407

@@ -1,0 +1,91 @@
+#contacto-wrapper {
+  width:100%;
+  padding-right: 50px;
+  margin-bottom: 30px;
+}
+
+#contacto-wrapper div {
+  clear:both;
+  margin:1em 0;
+}
+
+#contacto-wrapper label {
+  display:block;
+  float:none;
+  font-size:16px;
+  width:100%;
+}
+
+form#contactoform input {
+  border-color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  padding: 5px;
+  font-size:16px;
+  color:#333;
+  width:100%;
+  border-radius: 0px;
+}
+
+form#contactoform input:focus {
+  outline: none !important;
+  border:1px solid #ffd204;
+}
+
+form#contactoform textarea {
+  font-family:Arial, Tahoma, Helvetica, sans-serif;
+  font-size:100%;
+  padding:0.6em 0.5em 0.7em;
+  border-color:#ffffff;
+  border-style:solid;
+  border-width:1px;
+  width:100%;
+  border-radius: 0px;
+}
+
+form#contactoform textarea:focus {
+  outline: none !important;
+  border:1px solid #ffd204;
+  /*box-shadow: 0 0 7px #ffd204;*/
+}
+
+form#contactoform .btn{
+  background: #ffd204;
+  color: #000000;
+  border: 1px solid #d5b212;
+  font-size: 1em;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 100% !important;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-top: 15px;
+}
+
+form#contactoform .btn:hover{
+  background: #d5b212;
+  color: #000000;
+}
+
+.send {
+  color: #5cb85c;
+}
+
+.error{
+  color: #d9534f;
+}
+
+/*
+--------------------------------------------
+  PARA MOVIL
+--------------------------------------------
+*/
+@media screen and (max-width: 767px) {
+
+  #contacto-wrapper {
+   padding-right: 0px;
+  }
+
+
+}

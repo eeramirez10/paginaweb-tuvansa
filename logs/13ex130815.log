@@ -1,0 +1,10 @@
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-15 20:29:51
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-15 20:29:51 W3SVC12084 GET /favicon.ico - - 201.173.33.135 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+7.0;+Windows+NT+6.1;+WOW64;+Trident/6.0;+SLCC2;+.NET+CLR+2.0.50727;+.NET+CLR+3.5.30729;+.NET+CLR+3.0.30729;+HPDTDF;+.NET4.0C;+AskTbAVR-W1/5.12.5.17700;+FunWebProducts;+BRI/2;+BOIE9;ESMX) - www.tuvansa.com.mx 404 0 354
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-15 23:58:12
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-15 23:58:12 W3SVC12084 GET /index.html - - 173.199.114.75 HTTP/1.1 Mozilla/5.0+(compatible;+AhrefsBot/4.0;++http://ahrefs.com/robot/) - www.tuvansa.com.mx 200 435 169

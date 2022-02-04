@@ -1,0 +1,25 @@
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-09 14:10:16
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-09 14:10:15 W3SVC12084 GET /favicon.ico - - 189.152.86.14 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+7.0;+Windows+NT+5.1;+Trident/4.0;+BTRS31753;+InfoPath.1;+.NET+CLR+2.0.50727;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) - www.tuvansa.com.mx 404 0 308
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-09 14:27:56
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-09 14:27:56 W3SVC12084 GET /index.html - - 189.175.18.229 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+7.0;+Windows+NT+6.1;+Trident/5.0;+SLCC2;+.NET+CLR+2.0.50727;+.NET+CLR+3.5.30729;+.NET+CLR+3.0.30729;+CPNTDF;+InfoPath.2;+.NET4.0C;+yie9) - www.tuvansa.com.mx 200 435 293
+2013-08-09 14:28:07 W3SVC12084 GET /index.html - - 189.175.18.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/28.0.1500.95+Safari/537.36 - www.tuvansa.com.mx 200 435 325
+2013-08-09 14:28:10 W3SVC12084 GET /favicon.ico - - 189.175.18.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/28.0.1500.95+Safari/537.36 - www.tuvansa.com.mx 404 4173 276
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-09 17:50:59
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-09 17:50:59 W3SVC12084 GET /robots.txt - - 173.199.119.139 HTTP/1.1 Mozilla/5.0+(compatible;+AhrefsBot/4.0;++http://ahrefs.com/robot/) - www.tuvansa.com.mx 404 4173 179
+2013-08-09 17:51:49 W3SVC12084 GET /robots.txt - - 157.55.35.85 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - www.tuvansa.com.mx 404 4173 270
+2013-08-09 17:54:11 W3SVC12084 GET /index.html - - 157.55.35.85 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - www.tuvansa.com.mx 200 435 273
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-09 19:20:08
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-09 19:20:08 W3SVC12084 GET /robots.txt - - 157.55.35.85 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - www.tuvansa.com.mx 404 4173 270
+2013-08-09 19:22:41 W3SVC12084 GET /index.html - - 157.55.35.85 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - www.tuvansa.com.mx 200 435 273

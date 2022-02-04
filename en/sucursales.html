@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tuvansa | Sucursales</title>
+
+    <meta content='Empresa Mexicana con más de cinco décadas en la comercialización de Tubería, Válvulas y Conexiones para uso industrial' name='description' />
+  	<meta content='De Puro Corazón' name='author' />
+  	<meta name="distribución" content="global" />
+  	<meta name="language" content="en" />
+
+  	<link rel="shortcut icon" href="favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" href="css/general-styles.css" />
+  	<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />
+  	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.6/mapbox.css' rel='stylesheet' />
+
+  	<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.6/mapbox.js'></script>
+
+  	<script src="js/modernizr.custom.js"></script>
+
+  	<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
+
+    <style>
+      .info {
+        width: 300px;
+        position:absolute;
+        top: 100px;
+        left: 40%;
+        box-shadow: 0px 0px 10px #888888;
+      }
+      .info div {
+        background:#fff;
+        padding:10px;
+        border-radius:5px;
+      }
+
+      .info div p{
+        font-weight: 300;
+        font-size: .95em;
+      }
+
+      @media screen and (max-width: 1024px) { .info { left: 37%; } }
+
+      @media screen and (max-width: 768px) { .info { left: 30%; } }
+
+      @media screen and (max-width: 480px) { .info { left: 20%; } }
+
+      @media screen and (max-width: 320px) { .info { left: 10px; } }
+
+    </style>
+
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+
+	<!-- MENU RESPONSIVE -->
+	<div class="menu-wrap">
+    <div class="menu">
+      <div class="icon-list">
+        <a href="index.html" target="_self"><span>Home</span></a>
+        <a href="quienes-somos.html" target="_self"><span>Who we are</span></a>
+        <a href="productos.html" target="_self"><span>Our products</span></a>
+        <a href="sistemas-de-calidad.html" target="_self"><span>Quality Systems</span></a>
+        <a href="sucursales.html" target="_self"><span>Branches</span></a>
+        <!-- <a href="media.html" target="_self"><span>Media</span></a> -->
+        <a href="contacto.php" target="_self"><span>Contact</span></a>
+        <a href="../index.html" target="_self"><span><img src="imgs/mexicoFlagIcon.gif"></span></a>
+      </div>
+    </div>
+    <button class="close-button" id="close-button">Close Menu</button>
+  </div>
+  <button class="menu-button" id="open-button">Menu</button>
+
+  <header class="scroll wow fadeInDown" data-wow-duration="1s">
+    <div>
+      <div class="logo">
+        <a href="index.html"><img src="imgs/logo-tuvansa.png" alt="Tuvansa"></a>
+      </div>
+      <nav id="menu">
+        <ul>
+          <a href="quienes-somos.html" target="_self"><li>Who we are</li></a>
+          <a href="productos.html" target="_self"><li>Products</li></a>
+          <a href="sistemas-de-calidad.html" target="_self"><li>Quality Systems</li></a>
+          <a href="sucursales.html" target="_self"><li>Branches</li></a>
+          <!-- <a href="media.html" target="_self"><li>Media</li></a> -->
+          <a href="contacto.php" target="_self"><li>Contact</li></a>
+          <a href="../index.html" target="_self"><li><img src="imgs/mexicoFlagIcon.gif"></li></a>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+	<div class="container">
+		<!-- <div class="big-banner">
+			<iframe width='100%' height='600px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/laboratoriodmarcas.kek42llc/attribution,zoompan.html?access_token=pk.eyJ1IjoibGFib3JhdG9yaW9kbWFyY2FzIiwiYSI6IlU5WjFtV00ifQ.F2_sASKeN5n-75dqDT4fkQ'></iframe>
+
+		</div> -->
+		<div id="map" ></div>
+    <div id='info' class='info'></div>
+
+		<div class="content-productos">
+			<!-- <div class="title-mas">
+				<h1>Nuestros productos</h1>
+			</div> -->
+			<div class="title-mas">
+				<h1>Branches</h1>
+			</div>
+
+			<div class="sucursales">
+				<div class="four">
+					<h4>Tuvansa México</h4>
+					<p>
+						Retorno de San Buenaventura 12<br>
+						Fracc. Ind. San Buenaventura<br>
+						Apdo. 180, C.P. 54135, <br>
+						Tlalnepantla, Edo. Méx. <br>
+						T. (55) 5039.0730<br>
+						F. (55) 5039.0746<br>
+						<a href="mailto:ventasmex@tuvansa.com.mx">ventasmex@tuvansa.com.mx</a>
+					</p>
+				</div>
+				<div class="four">
+					<h4>Tuvansa Monterrey</h4>
+					<p>
+						Guerrero Norte No. 4100,<br>
+						Col. del Norte, Monterrey, NL.,<br>
+						C.P. 64500, Apdo. 2073<br>
+						T. (81) 8125.4242<br>
+						F. (81) 8351.4813<br>
+            <a href="mailto:ventasmty@tuvansa.com.mx">ventasmty@tuvansa.com.mx</a>
+					</p>
+				</div>
+				<div class="four">
+					<h4>Tuvansa Mexicali</h4>
+					<p>
+						Blvd. Adolfo López Mateos Km. 5.5<br>
+						C.P. 21330, Mexicali, B.C., México<br>
+						T. (686) 557.2316<br>
+						T y F. (686) 557.4656<br>
+            <a href="mailto:ventasmli@tuvansa.com.mx">ventasmli@tuvansa.com.mx</a>
+					</p>
+				</div>
+				<div class="four">
+					<h4>Tuvansa Veracruz</h4>
+					<p>
+						Av. Framboyanes, Lote No. 13<br>
+						Cd. Industrial Bruno Pagliai<br>
+						Veracruz, Ver., C.P. 91697<br>
+						T. (229) 989.3900<br>
+						F. (229) 981.0348<br>
+            <a href="mailto:ventasver@tuvansa.com.mx">ventasver@tuvansa.com.mx</a>
+					</p>
+				</div>
+			</div>
+
+      <div class="sucursales">
+        <div class="four">
+          <h4>Tuvansa Querétaro</h4>
+           <p>
+            Las Peñas No. 6<br>
+            Col. Las Peñas, C.P. 76158<br>
+            Querétaro. <br>
+            T. (55) 1989.0600<br>
+            <a href="mailto:ventasqro@tuvansa.com.mx">ventasqro@tuvansa.com.mx</a>
+          </p>
+        </div>
+        <div class="four"></div>
+        <div class="four"></div>
+        <div class="four"></div>
+      </div>
+
+      <div class="cita"></div>
+
+		</div>
+	</div>
+
+	<footer>
+		<div class="derechos">
+			<p>® 2014. Todos los derechos reservados</p>
+		</div>
+	</footer>
+
+	<!-- MENU RESPONSIVE -->
+	<script src="js/classie.js"></script>
+	<script src="js/main.js"></script>
+
+	<script type="text/javascript">
+		L.mapbox.accessToken = 'pk.eyJ1IjoibWV0YWNyb21vIiwiYSI6InpyM0FSUnMifQ.5wq5tL1MwRw_nz8PfH8BHg';
+    	var map = L.mapbox.map('map', 'metacromo.f6fcac7f', { zoomControl: false })
+        .setView([28.700, -101.997], 5);
+
+        new L.Control.Zoom({ position: 'bottomright' }).addTo(map);
+
+         var myLayer = L.mapbox.featureLayer().addTo(map);
+
+          // Disable drag and zoom handlers.
+          //map.dragging.disable();
+          map.touchZoom.disable();
+          //map.doubleClickZoom.disable();
+          map.scrollWheelZoom.disable();
+
+          // Disable tap handler, if present.
+          if (map.tap) map.tap.disable();
+
+          var geoJson = [{
+          "type": "Feature",
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-99.196, 19.536]
+          },
+          "properties": {
+              "title": "Tuvansa México",
+              "description": "Retorno de San Buenaventura 12, Fracc. Ind. San Buenaventura, Tlalnepantla, Edo. Méx. T. (55) 5039.0730, F. (55) 5039.0746. ventasmex@tuvansa.com.mx",
+              "icon": {
+                  "iconUrl": "imgs/icon-map.png",
+                  "iconSize": [40, 40], // size of the icon
+                  "iconAnchor": [25, 25], // point of the icon which will correspond to marker's location
+                  "popupAnchor": [-5, -25], // point from which the popup should open relative to the iconAnchor
+                  "className": "dot"
+              }
+          }
+      }, {
+          "type": "Feature",
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-115.472, 32.652]
+          },
+          "properties": {
+              "title": "Tuvansa Mexicali",
+              "description": "Blvd. Adolfo López Mateos Km. 5.5, Mexicali, B.C., México, T. (686) 557.2316, F. (686) 557.4656. ventasmli@tuvansa.com.mx",
+              "icon": {
+                  "iconUrl": "imgs/icon-map.png",
+                  "iconSize": [40, 40], // size of the icon
+                  "iconAnchor": [25, 25], // point of the icon which will correspond to marker's location
+                  "popupAnchor": [-5, -25], // point from which the popup should open relative to the iconAnchor
+                  "className": "dot"
+              }
+          }
+      },  {
+          "type": "Feature",
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-96.131, 19.173]
+          },
+          "properties": {
+              "title": "Tuvansa Veracruz",
+              "description": "Av. Framboyanes, Lote No. 13 Cd. Industrial Bruno Pagliai Veracruz, Ver. T. (229) 989.3900, F. (229) 981.0348. javila@tuvansa.com.mx",
+              "icon": {
+                  "iconUrl": "imgs/icon-map.png",
+                  "iconSize": [40, 40], // size of the icon
+                  "iconAnchor": [25, 25], // point of the icon which will correspond to marker's location
+                  "popupAnchor": [-5, -25], // point from which the popup should open relative to the iconAnchor
+                  "className": "dot"
+              }
+          }
+      },  {
+          "type": "Feature",
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-100.308, 25.716]
+          },
+          "properties": {
+              "title": "Tuvansa Monterrey",
+              "description": "Guerrero Norte No. 4100, Col. del Norte, Monterrey, NL., Apdo. 2073, T. (81) 8125.4242, F. (81) 8351.4813. ventasmty@tuvansa.com.mx",
+              "icon": {
+                  "iconUrl": "imgs/icon-map.png",
+                  "iconSize": [40, 40], // size of the icon
+                  "iconAnchor": [25, 25], // point of the icon which will correspond to marker's location
+                  "popupAnchor": [-5, -25], // point from which the popup should open relative to the iconAnchor
+                  "className": "dot"
+              }
+          }
+      },  {
+          "type": "Feature",
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-100.388314, 20.589456]
+          },
+          "properties": {
+              "title": "Querétaro",
+              "description": "Raúl Oliva, T. 55-19890600",
+              "icon": {
+                  "iconUrl": "imgs/icon-shop.png",
+                  "iconSize": [30, 30], // size of the icon
+                  "iconAnchor": [25, 25], // point of the icon which will correspond to marker's location
+                  "popupAnchor": [-5, -25], // point from which the popup should open relative to the iconAnchor
+                  "className": "dot"
+              }
+          }
+      },  {
+          "type": "Feature",
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-110.952763, 29.083495]
+          },
+          "properties": {
+              "title": "Hermosillo",
+              "description": "Rubén Pérez, T. 016865572316",
+              "icon": {
+                  "iconUrl": "imgs/icon-shop.png",
+                  "iconSize": [30, 30], // size of the icon
+                  "iconAnchor": [25, 25], // point of the icon which will correspond to marker's location
+                  "popupAnchor": [-5, -25], // point from which the popup should open relative to the iconAnchor
+                  "className": "dot"
+              }
+          }
+      },  {
+          "type": "Feature",
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-118.179451, 33.958357]
+          },
+          "properties": {
+              "title": "Val-Fit Los Angeles",
+              "description": "8360 Wilcox Ave, Cudahy, CA. T. (323) 562-3440, F. (323) 562-1680, salesla@valfit.com",
+              "icon": {
+                  "iconUrl": "imgs/icon-shop.png",
+                  "iconSize": [30, 30], // size of the icon
+                  "iconAnchor": [25, 25], // point of the icon which will correspond to marker's location
+                  "popupAnchor": [-5, -25], // point from which the popup should open relative to the iconAnchor
+                  "className": "dot"
+              }
+          }
+      },  {
+          "type": "Feature",
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-95.250385, 29.823460]
+          },
+          "properties": {
+              "title": "Val-Fit Houston",
+              "description": "9051 Spikewood Dr, Houston, TX. T. (281) 661-8401, F. (281) 661-8402, saleshou@valfit.com",
+              "icon": {
+                  "iconUrl": "imgs/icon-shop.png",
+                  "iconSize": [30, 30], // size of the icon
+                  "iconAnchor": [25, 25], // point of the icon which will correspond to marker's location
+                  "popupAnchor": [-5, -25], // point from which the popup should open relative to the iconAnchor
+                  "className": "dot"
+              }
+          }
+      },  {
+          "type": "Feature",
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-84.193691, 33.827705]
+          },
+          "properties": {
+              "title": "Val-Fit Atlanta",
+              "description": "1078 Litton Dr. Atlanta, GA. T. (678) 775-4660, F. (678) 775-4661, salesatl@valfit.com",
+              "icon": {
+                  "iconUrl": "imgs/icon-shop.png",
+                  "iconSize": [30, 30], // size of the icon
+                  "iconAnchor": [25, 25], // point of the icon which will correspond to marker's location
+                  "popupAnchor": [-5, -25], // point from which the popup should open relative to the iconAnchor
+                  "className": "dot"
+              }
+          }
+      } ];
+
+      // Set a custom icon on each marker based on feature properties.
+      myLayer.on('layeradd', function(e) {
+          var marker = e.layer,
+              feature = marker.feature;
+
+          marker.setIcon(L.icon(feature.properties.icon));
+      });
+
+      // TOOLTIP HOVER.
+      // myLayer.setGeoJSON(geoJson);
+
+      // myLayer.on('mouseover', function(e) {
+      //     e.layer.openPopup();
+      // });
+      // myLayer.on('mouseout', function(e) {
+      //     e.layer.closePopup();
+      // });
+
+
+      myLayer.setGeoJSON(geoJson);
+
+      // Listen for individual marker clicks.
+      myLayer.on('click',function(e) {
+          // Force the popup closed.
+          e.layer.closePopup();
+
+          var feature = e.layer.feature;
+          var content = '<div><strong>' + feature.properties.title + '</strong>' +
+                        '<p>' + feature.properties.description + '</p></div>';
+
+          info.innerHTML = content;
+      });
+      // Clear the tooltip when map is clicked.
+      map.on('move', empty);
+
+      // Trigger empty contents when the script
+      // has loaded on the page.
+      empty();
+
+      //TEXTO DENTRO DE CAJA INFO
+      function empty() {
+        info.innerHTML = '';
+        }
+
+	</script>
+
+
+</body>
+</html>
+

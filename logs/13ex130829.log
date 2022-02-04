@@ -1,0 +1,20 @@
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-29 06:02:15
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-29 06:02:15 W3SVC12084 GET /index.html - - 148.223.233.100 HTTP/1.1 - - www.tuvansa.com.mx 200 382 68
+2013-08-29 06:14:52 W3SVC12084 GET /index.html - - 148.223.233.100 HTTP/1.1 - - www.tuvansa.com.mx 200 382 68
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-29 16:34:02
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-29 16:34:02 W3SVC12084 GET /index.html - - 64.29.144.86 HTTP/1.1 Mozilla/5.0+(X11;+Ubuntu;+Linux+i686;+rv:19.0)+Gecko/20100101+Firefox/19.0 - tuvansa.com.mx 200 378 286
+2013-08-29 16:34:06 W3SVC12084 GET /CGI-BIN/index.html - - 64.29.144.86 HTTP/1.1 Mozilla/5.0+(X11;+Ubuntu;+Linux+i686;+rv:19.0)+Gecko/20100101+Firefox/19.0 - tuvansa.com.mx 200 2043 304
+2013-08-29 16:34:08 W3SVC12084 GET /CGI-BIN/images/logo.png - - 64.29.144.86 HTTP/1.1 Mozilla/5.0+(X11;+Ubuntu;+Linux+i686;+rv:19.0)+Gecko/20100101+Firefox/19.0 http://tuvansa.com.mx/CGI-BIN/index.html tuvansa.com.mx 404 4173 300
+2013-08-29 16:34:08 W3SVC12084 GET /CGI-BIN/images/tuvansa_under_2.png - - 64.29.144.86 HTTP/1.1 Mozilla/5.0+(X11;+Ubuntu;+Linux+i686;+rv:19.0)+Gecko/20100101+Firefox/19.0 http://tuvansa.com.mx/CGI-BIN/index.html tuvansa.com.mx 404 4173 311
+2013-08-29 16:34:33 W3SVC12084 GET /index.html - - 64.29.144.86 HTTP/1.1 Mozilla/5.0+(X11;+Ubuntu;+Linux+i686;+rv:19.0)+Gecko/20100101+Firefox/19.0 - tuvansa.com.mx 200 326 296
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-29 18:29:51
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-29 18:29:51 W3SVC12084 GET /index.html - - 15.203.233.78 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+6.1;+WOW64;+Trident/4.0;+BTRS100194;+GTB7.5;+SLCC2;+.NET+CLR+2.0.50727;+.NET+CLR+3.5.30729;+.NET+CLR+3.0.30729;+Media+Center+PC+6.0;+InfoPath.3;+.NET4.0C;+.NET4.0E) http://www.google.com.mx/url?sa=t&rct=j&q=tuvansa.com.mx&source=web&cd=1&ved=0CDsQFjAA&url=http%3A%2F%2Ftuvansa.com.mx%2F&ei=G5MfUonvCvPAsAThzYGwDQ&usg=AFQjCNGlXxY5EKAVdx9Jgc_dez6q2jFyyQ&bvm=bv.51495398,d.cWc tuvansa.com.mx 200 431 826

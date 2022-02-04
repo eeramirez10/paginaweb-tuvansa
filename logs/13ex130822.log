@@ -1,0 +1,15 @@
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-22 16:18:11
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-22 16:18:11 W3SVC12084 GET /index.html - - 189.224.53.129 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+AskTbORJ/5.15.23.36191) http://www.directoriomex.com.mx/basenl.asp www.tuvansa.com.mx 200 435 288
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-22 16:33:54
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-22 16:33:53 W3SVC12084 GET /index.html - - 180.76.5.8 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - www.tuvansa.com.mx 200 454 316
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-08-22 22:18:22
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-08-22 22:18:21 W3SVC12084 GET /index.html - - 69.171.242.112 HTTP/1.1 facebookexternalhit/1.1+(+http://www.facebook.com/externalhit_uatext.php) - www.tuvansa.com.mx 206 480 223
